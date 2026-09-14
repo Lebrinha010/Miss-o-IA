@@ -11,10 +11,13 @@ const perguntas = [
             {
                 texto: "Confirmar a decisão do VAR e anular o gol, pois a tecnologia identificou o impedimento com precisão!",
                 afirmacao: "O VAR foi criado para reduzir erros e garantir que as regras sejam aplicadas corretamente, mesmo quando a diferença é muito pequena. "
+                "Muitos analistas propõem uma 'margem de erro' ou tolerância de alguns centímetros para não estragar a dinâmica e a emoção do gol."
             },
             {
                 texto: "Manter a decisão de campo, pois lances muito ajustados não deveriam ser anulados pela tecnologia.!",
                 afirmacao: "Em alguns casos, a margem é tão pequena que muitos torcedores acreditam que o benefício da dúvida deveria favorecer o ataque."
+                "A longa espera para traçar linhas de impedimento gera enorme frustração no estádio e quebra o ritmo natural da partida."
+            }
             }
         ]
     },
@@ -24,10 +27,16 @@ const perguntas = [
             {
                 texto: "Esperar o tempo necessário para que a decisão seja tomada com segurança e justiça.",
                 afirmacao: "Uma decisão correta pode ser mais importante do que a rapidez, principalmente em jogos decisivos."
+                "O tempo gasto na checagem não é um problema se o árbitro devolver os minutos exatos ao jogo, mantendo o tempo de bola rolando justo."
+            }
+        ]
             },
             {
                 texto: "Evitar revisões muito longas para manter o ritmo da partida e a emoção do jogo.",
                 afirmacao: "Paradas excessivas podem diminuir o espetáculo e prejudicar a experiência dos jogadores e dos torcedores."
+                "A transparência na comunicação ajuda a diminuir a ansiedade de quem assiste e justifica o tempo gasto na revisão."
+            }
+        ]
             }
         ]
     },
@@ -37,10 +46,12 @@ const perguntas = [
             {
                 texto: "Adotar essa tecnologia para tornar as decisões mais rápidas e precisas.",
                 afirmacao: "A Inteligência Artificial pode reduzir ainda mais os erros humanos e aumentar a confiança nas decisões da arbitragem."
+                "A automação funciona muito bem para questões geométricas, mas lances subjetivos como faltas ainda precisam do olho humano."
             },
             {
                 texto: "Continuar utilizando principalmente a análise dos árbitros, deixando a tecnologia apenas como apoio.",
                 afirmacao: "Algumas decisões dependem da interpretação humana e não podem ser avaliadas apenas por sistemas automatizados."
+                "Muitos torcedores defendem que os erros e as polêmicas fazem parte da cultura e do charme do futebol."
             }
         ]
     },
@@ -50,10 +61,13 @@ const perguntas = [
             {
                 texto: "Investir para que todas as competições tenham acesso ao VAR e ofereçam mais justiça esportiva.",
                 afirmacao: "A igualdade entre as competições é importante para que todos os atletas disputem em condições semelhantes."
+                "Uma tecnologia alternativa e adaptada à realidade financeira pode trazer um equilíbrio entre justiça e orçamento."
+            },
             },
             {
                 texto: "Manter o campeonato sem VAR, priorizando outros investimentos mais importantes para os clubes.",
                 afirmacao: "Nem todas as competições possuem recursos suficientes, e investir em infraestrutura ou categorias de base pode trazer mais benefícios."
+                "O erro humano faz parte da essência histórica do futebol, e jogar sem o VAR preserva a dinâmica clássica do esporte."
             }
         ]
     },
@@ -63,10 +77,12 @@ const perguntas = [
             {
                 texto: "O VAR deve continuar sendo utilizado, pois a justiça nas decisões é mais importante que a emoção causada pelos erros.",
                 afirmacao: "A tecnologia ajuda a evitar injustiças que podem decidir campeonatos e prejudicar equipes."
+                "A tecnologia é apenas uma ferramenta; o que realmente confunde o público e os jogadores é a falta de consistência na interpretação das regras."
             },
             {
                 texto: "O VAR deveria ser usado apenas em situações muito específicas, para preservar a emoção e a dinâmica do futebol.",
                 afirmacao: "O futebol sempre fez parte da paixão dos torcedores, e muitas pessoas acreditam que o excesso de revisões altera a essência do esporte. "
+                "Mudar a cultura do futebol leva tempo, e a celebração após a confirmação do telão virou um novo ritual dos estádios modernos."
             }
         ]
     },
