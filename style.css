@@ -1,15 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
 :root{
     --cor-fundo: #01080E ;
     --cor-principal: #0B0D20 ;
-    --cor-secundaria: #212333; 
-    --cor-destaque: #2BDEFD;
-    --cor-texto: #D7F9FF;
+    --cor-secundaria: #212333;
+    --cor-destaque: #c12bfd;
+    --cor-texto: #898a94;
 
 }
 
 body {
     background-color: var(--cor-fundo);
     color: var(--cor-texto);
+    font-family: 'Open Sans';
     display: flex;
     justify-content: center;
     align-items: center;
@@ -28,6 +31,12 @@ h1{
     color: var(--cor-destaque);
 }
 
+h1, .caixa-perguntas, .caixa-resultado{
+    font-family: 'Chakra Petch', sans-serif;
+
+}
+
+
 button {
     background-color: var(--cor-secundaria);
     color: var(--cor-texto);
@@ -40,4 +49,16 @@ button {
 button:hover{
     background-color: var(--cor-destaque);
     color: var(--cor-principal);
+}
+.caixa-alternativa{
+    display: flex;
+    flex-direction: colunn;
+    gap: 10px;
+}
+.caixa-resultado{
+    display: none;
+}
+
+.caixa-resultado.mostrar{
+    display: block; 
 }
